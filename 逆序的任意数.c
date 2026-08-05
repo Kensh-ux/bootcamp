@@ -10,7 +10,7 @@ int main(){
     while(x > 0){
         digit = x % 10;
         ret = ret*10 + digit;
-        x/10;
+        x = x/10;
         printf("x=%d,digit=%d,ret=%d\n",x,digit,ret);
     }
 
