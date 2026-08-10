@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     int lower, upper;
     int fahr = 0;
     double celsius = 0;
