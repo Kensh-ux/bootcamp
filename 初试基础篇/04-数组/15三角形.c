@@ -50,7 +50,7 @@ int a[MAXN]; // 定义在全局，避免栈溢出
 
 int main() {
     int n;
-    if (scanf("%d", &n) != 1) return 0;  //我靠能这么玩
+    if (scanf("%d", &n) != 1) return 0;  //我靠能这么玩。。好像就是scanf("%d",&n); 做了个防御
 
     // 1. 正常读入初始数组
     for (int i = 0; i < n; i++) {
