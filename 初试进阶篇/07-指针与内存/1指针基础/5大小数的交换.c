@@ -1,6 +1,22 @@
 //输入10个整数，将其中最小的数与第一个数对换，把最大的数与最后一个数对换。写3个函数：①输入10个数；②进行处理；③输出10个数
 
 #include <stdio.h>
+void input(int *arr, int n);
+void process(int *arr, int n);
+void output(int *arr, int n);
+
+int main()
+{
+    int n = 10;
+    int numbers[10];
+    
+    input(numbers, n);
+    process(numbers, n);
+    output(numbers, n);
+    
+    return 0;
+}
+
 //函数1：输入10个数
 void input(int *arr, int n)
 {
@@ -54,15 +70,4 @@ void output(int *arr, int n)
         printf("%d ", *(arr + i));
     }
     printf("\n");
-}
-
-int main(){
-    int n = 10;
-    int numbers[10];
-    
-    input(numbers, n);
-    process(numbers, n);
-    output(numbers, n);
-    
-    return 0;
 }
