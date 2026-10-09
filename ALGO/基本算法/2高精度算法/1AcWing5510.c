@@ -1,3 +1,5 @@
+//https://www.acwing.com/problem/content/5513/
+
 #include <stdio.h>
 
 // 定义两个数组，用来存当前阶乘和总和
