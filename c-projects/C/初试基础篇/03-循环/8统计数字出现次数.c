@@ -29,3 +29,13 @@ int main(){
 
     return 0;
 }
+
+//新找到的不需要mask的方法
+// int min_digit = 9;
+// if (n == 0) min_digit = 0;
+// for (; n > 0; n /= 10) {
+//     int current_digit = n % 10; // 每次拿最后一位
+//     if (current_digit < min_digit) {
+//         min_digit = current_digit;
+//     }
+// }
