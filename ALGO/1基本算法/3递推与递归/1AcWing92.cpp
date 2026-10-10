@@ -18,8 +18,9 @@ void calc(int x)
             cout << chosen[i] << " ";
         }
 
-        puts("");
+        cout << "\n";
         return;
+    }
         
         //不选x
         calc(x+1);
@@ -28,7 +29,7 @@ void calc(int x)
         chosen.push_back(x);//推入，记录x
         calc(x+1);
         chosen.pop_back();//回溯，撤销选择x，还原现场
-    }
+    
 }
 
 int main()
