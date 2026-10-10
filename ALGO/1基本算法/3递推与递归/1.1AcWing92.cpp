@@ -25,7 +25,7 @@ void calc(int x)
         calc(x+1);
         
         //选x
-        chosen.push_back(x);//推出，记录x
+        chosen.push_back(x);//推入，记录x
         calc(x+1);
         chosen.pop_back();//回溯，撤销选择x，还原现场
     }
