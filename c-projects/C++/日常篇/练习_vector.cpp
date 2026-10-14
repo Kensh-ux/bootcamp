@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <vector>//用到
 
 using namespace std;
 
@@ -110,6 +111,6 @@ int main(){
     //些平台例如cf可选 64 位），那么该类型范围为[0, 2³²)
     vector<int> a(65536);
     long long sz = a.size() * a.size(); // 直接溢出变成0了
-    
+
     return 0;
 } 
