@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 #include <vector>//用到
 
+//连续的顺序的储存结构（和数组一样的
+//类别），但是有长度可变的特性。
+
 using namespace std;
 
 int main()
