@@ -27,5 +27,21 @@ int main()
     stk.pop();//出栈，1.4被踢出
     stk.top();//此时输出1.0
 
+    //适用情形
+    //如果不卡常的话，就可以直接用它而不需要手写栈了。
+    //另外，vector也可以当栈用，vector的.back()取尾部元素，就相当于取栈
+    //顶，而.push_back()相当于进栈 .pop_back()相当于出栈。
+
+    //私以为vector完全薄纱stack
+
     return 0;
 }
+
+    //注意事项
+    //不可访问内部元素！下面都是错误用法
+    // for (int i = 0; i < stk.size(); i++)
+    // cout << stk[i] << endl;
+    // for (auto ele : stk)
+    // cout << ele << endl;
+
+    //所以说vector薄纱stack,完全上位替代
