@@ -45,3 +45,4 @@ int main()
     // cout << ele << endl;
 
     //所以说vector薄纱stack,完全上位替代
+    //唯一优点是，栈的内存占用更少，竞赛时有时会卡内存
