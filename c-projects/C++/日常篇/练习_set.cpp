@@ -21,5 +21,6 @@ int main()
     for (set<int>::iterator it = st.begin(); it != st.end(); ++it)
     cout << *it << endl;
 
+
     return 0;
 }
