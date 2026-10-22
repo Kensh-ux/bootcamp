@@ -32,7 +32,7 @@ int main()
     //如果未声明
     cout << mp[3] << '\n';//输出0，因为初值为0
 
-    //查元素，和set一样用find，但由于底层是红黑树，find在map用的是二分查找
+    //查元素，和set一样用find，但由于底层是红黑树，find在map用的不是遍历
     if(mp.find(2) != mp.end())
         cout << "yes" << '\n';
     
