@@ -65,7 +65,5 @@ int main()
     // auto it = st.find(2);      // 正确，返回2所在位置的迭代器。
     // int idx = it - st.begin(); // 错误！不可相减得到下标。
 
-
-
     return 0;
 }
