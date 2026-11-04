@@ -65,11 +65,11 @@ int main()
     //中括号访问时默认值
     //如果使用中括号访问 map 时对应的键不存在，那么会新增这个
     //键，并且值为默认值，因此中括号会影响键的存在性。
-    map<char, int> mp;
-    cout << mp.count('a') << endl; // 0
-    mp['a'];                       // 即使什么都没做，此时mp['a']=0已经插入了
-    cout << mp.count('a') << endl; // 1
-    cout << mp['a'] << endl;       // 0
+    map<char, int> mp11;
+    cout << mp11.count('a') << endl; // 0
+    mp11['a'];                       // 即使什么都没做，此时mp['a']=0已经插入了
+    cout << mp11.count('a') << endl; // 1
+    cout << mp11['a'] << endl;       // 0
 
     //不可用迭代器计算下标
     //map 的迭代器不能像 vector 一样相减得到下标。下面是错误用法：

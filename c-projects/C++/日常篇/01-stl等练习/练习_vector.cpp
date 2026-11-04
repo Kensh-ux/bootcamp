@@ -38,7 +38,7 @@ int main()
     //vector<int> arr[100]{100,1};//语法错误
     //vector<int> arr(100, 1)[100];//语法错误
 
-    vector<int> arr[100] {{100, 1},/*这里省略98个*/{100, 1}}; 
+    vector<int> arr1[100] {{100, 1},/*这里省略98个*/{100, 1}}; 
     //正确但奇葩，使用列表初始化。 (神了)
 
     //zzz        AND
@@ -105,15 +105,15 @@ int main(){
     for(int i = 0; i < 1e8; i++)
         a.push_back(i);
     //优化后: 259ms
-    vector<int> a(1e8);
-    for(int i = 0; i < a.size(); i++)
-        a[i] = i;
+    vector<int> a1(1e8);
+    for(int i = 0; i < a1.size(); i++)
+        a1[i] = i;
 
     //2.当心 size_t 溢出
     //vector获取长度的方法.size()返回值类型为size_t，通常OJ平台使用的是 32 位编译器（有
     //些平台例如cf可选 64 位），那么该类型范围为[0, 2³²)
-    vector<int> a(65536);
-    long long sz = a.size() * a.size(); // 直接溢出变成0了
+    vector<int> b(65536);
+    long long sz = b.size() * b.size(); // 直接溢出变成0了
 
     return 0;
 } 

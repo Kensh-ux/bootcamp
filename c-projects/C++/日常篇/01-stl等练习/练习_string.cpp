@@ -18,11 +18,11 @@ int main()
     cout << s << endl;
 
     //当然能用printf等，但是会略多
-    string s;
+    string sa;
     char buf[100];
-    scanf("%s",buf);
-    s = buf;
-    printf("%s",s.c_str());//好奇怪啊
+    scanf("%sa",buf);
+    sa = buf;
+    printf("%sa",sa.c_str());//好奇怪啊
 
     string df(10,'0');//0000000000
     df = "awa";//赋值,接下来输出awa
@@ -76,13 +76,13 @@ int main()
     //string 的 += 运算符，将会在原字符串原地尾接字符串。而 + 了再 = 赋值，会
     //先生成一个临时变量，再复制给 string. 通常字符串长度可以很长，如果使用 + 字符串很容易就 TLE 了。
     // 优化前: 15139ms
-    string s;
+    string sb;
     for (int i = 0; i < 5e5; i++)
-        s = s + "a";
+        sb = sb + "a";
     // 优化后: < 1ms (计时器显示0)
-    string s;
+    string sc;
     for (int i = 0; i < 5e5; i++)
-        s += "a";
+        sc += "a";
 
     //.substr() 方法的奇葩参数
     //一定要注意，C++ string 的取子串的第一个参数是子串起点下标，第二
