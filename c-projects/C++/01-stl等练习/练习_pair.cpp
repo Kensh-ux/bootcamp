@@ -16,15 +16,15 @@ int main()
     //老式
     pair<int, char> pr = make_pair(1, 'a');
     //列表构造 C++11
-    pair<int, char> pr = {1, 'a'};
+    pair<int, char> pr1 = {1, 'a'};
 
     //取值
-    pair<int, char> pr = {1, 'a'};
-    int awa = pr.first;
-    char bwb = pr.second;
+    pair<int, char> pr2 = {1, 'a'};
+    int awa = pr2.first;
+    char bwb = pr2.second;
     //结构化绑定 C++17
-    pair<int, char> pr = {1, 'a'};
-    auto &[awa, bwb] = pr;
+    pair<int, char> pr3 = {1, 'a'};
+    auto &[awa1, bwb1] = pr;
 
     //判同同样是==
     pair<int, int> o1 = {1, 2};
