@@ -5,7 +5,7 @@
 > 由于ALGO下的题都是书中例题，故单独分出 `ALGO` 目录，与个人在网络上找的题区分开。
 
 ## 📁 目录结构说明
-- **`ALGO`**：ALGO上相关题目，由于全被AcWing收录，故所有题目会附上原题链接
+- **`ALGO`**：ALGO上相关题目
 - **`c-projects`**：包含C语言、C++练习项目
 - **`python-projects`**：Python练习项目
 
