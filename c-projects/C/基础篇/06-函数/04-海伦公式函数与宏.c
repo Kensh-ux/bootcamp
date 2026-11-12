@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 #define S (((a) + (b) + (c)) / 2.0)
 #define AREA (sqrt((S) * ((S) - (a)) * ((S) - (b)) * ((S) - (c))))
 
