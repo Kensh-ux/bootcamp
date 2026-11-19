@@ -11,11 +11,13 @@ int main()
 	 
 	 while(n > 0)
 	 {
-	 	 while(temp<n)
+	 	while(temp<n)
 	 	{
 	 		temp = temp*2;
 	 		count++;
 	 	}
+		temp /= 2;
+		n -= temp;
 	 }
 	
 	
