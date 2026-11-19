@@ -35,13 +35,13 @@ int main()
         for (int i = 0; i < n; ++i) 
         {
             int digit = s[i] - '0';//获取当前数字
-            printf("%s", num[digit][row]);
+            printf("%s", num[digit][row]);//巧用%s，一直输出到'\n'停止
             if (i != n - 1) 
             {
                 printf(".");
             }
         }
         printf("\n"); 
-
+    }
     return 0;
 }
