@@ -1,3 +1,5 @@
+//https://www.luogu.com.cn/problem/P1068
+
 #include <stdio.h>
 #include <stdlib.h>
 
