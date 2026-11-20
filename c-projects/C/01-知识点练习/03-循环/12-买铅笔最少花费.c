@@ -42,3 +42,31 @@ int main(){
 //这也太史山了
 
 //故放到这里
+
+//三个月后，重做简单题巩固知识点时发现了它，原来那么简单啊……
+// #include <stdio.h>
+
+// int main() 
+// {
+//     int n;
+//     scanf("%d", &n);
+    
+//     int min_cost = 100000000;
+//     int q, p; 
+
+//     for (int i = 0; i < 3; i++) 
+//     {
+//         scanf("%d %d", &q, &p);
+        
+//         int packs = (n + q - 1) / q; 
+//         int cost = packs * p;
+
+//         if (cost < min_cost) 
+//         {
+//             min_cost = cost;
+//         }
+//     }
+    
+//     printf("%d\n", min_cost);
+//     return 0;
+// }
