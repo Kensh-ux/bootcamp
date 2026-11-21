@@ -1,3 +1,5 @@
+//https://www.luogu.com.cn/problem/P1923
+
 #include <stdio.h>
 
 int a[5000005]; 
